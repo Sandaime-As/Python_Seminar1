@@ -5,9 +5,9 @@
 # - 6 -> да
 # - 7 -> да
 # - 1 -> нет
-print('enter the num: ')
-num=int(input())
-if num==6 or num==7:
+print('Введите день недели: ')
+num = int(input())
+if num == 6 or num == 7:
     print('да')
 else:
     print('нет')
